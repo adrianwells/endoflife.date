@@ -1,6 +1,7 @@
 ---
 title: GStreamer
 category: framework
+iconSlug: gstreamer
 permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
@@ -17,14 +18,14 @@ releases:
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23
     eol: false
-    latest: "1.22.3"
-    latestReleaseDate: 2023-05-19
+    latest: "1.22.5"
+    latestReleaseDate: 2023-07-20
 
 -   releaseCycle: "1.20"
     releaseDate: 2022-02-03
     eol: true
-    latest: "1.20.6"
-    latestReleaseDate: 2023-02-23
+    latest: "1.20.7"
+    latestReleaseDate: 2023-07-26
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-09-08

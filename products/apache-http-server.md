@@ -1,18 +1,26 @@
 ---
 title: Apache HTTP Server
 category: server-app
+tags: apache web-server
 iconSlug: apache
 permalink: /apache
 alternate_urls:
 -   /httpd
 releasePolicyLink: https://httpd.apache.org/dev/release.html
 activeSupportColumn: false
-versionCommand: httpd -v
+versionCommand: |-
+  httpd -v
+
+  # or for Debian-based systems
+  apachectl -v
 releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
 -   repology: apache
+
+auto:
+-   custom: true
 
 releases:
 -   releaseCycle: "2.4"
@@ -29,16 +37,16 @@ releases:
     latestReleaseDate: 2017-07-11
 
 -   releaseCycle: "2.0"
-    releaseDate: 2002-04-06
+    releaseDate: 2002-04-05
     eol: 2013-07-10
     latest: "2.0.65"
-    latestReleaseDate: 2013-07-10
+    latestReleaseDate: 2013-07-09
 
 -   releaseCycle: "1.3"
-    releaseDate: 1998-06-06
+    releaseDate: 1998-06-01
     eol: 2010-02-03
     latest: "1.3.42"
-    latestReleaseDate: 2010-02-03
+    latestReleaseDate: 2010-02-02
 
 ---
 

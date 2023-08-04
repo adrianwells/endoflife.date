@@ -1,6 +1,7 @@
 ---
 title: Micronaut Framework
 category: framework
+tags: java-runtime
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework
@@ -16,17 +17,24 @@ auto:
 -   git: https://github.com/micronaut-projects/micronaut-core.git
 
 releases:
+-   releaseCycle: "4"
+    releaseDate: 2023-07-11
+    eol: false
+    support: true
+    latest: "4.1.0"
+    latestReleaseDate: 2023-08-03
+
 -   releaseCycle: "3"
     releaseDate: 2021-08-18
     eol: false
-    support: true
-    latest: "3.9.3"
-    latestReleaseDate: 2023-06-07
+    support: 2023-07-11
+    latest: "3.10.0"
+    latestReleaseDate: 2023-07-30
 
 -   releaseCycle: "2"
     releaseDate: 2020-06-26
-    eol: false
-    support: false
+    eol: 2023-03-01
+    support: 2021-08-18
     latest: "2.5.13"
     latestReleaseDate: 2021-09-03
 

@@ -1,6 +1,7 @@
 ---
 title: VMware Horizon
 category: app
+tags: vmware
 iconSlug: vmware
 permalink: /horizon
 alternate_urls:
@@ -15,6 +16,13 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "8.2306"
+    releaseDate: 2023-07-06
+    eol: 2026-07-06
+    technicalGuidance: 2027-07-06
+    latest: "8.2306"
+    latestReleaseDate: 2023-07-06
+
 -   releaseCycle: "8.2303"
     releaseDate: 2023-03-30
     eol: 2026-03-30
@@ -56,8 +64,8 @@ releases:
     eol: 2024-11-30
     technicalGuidance: 2025-11-30
     lts: true
-    latest: "8.2111.1"
-    latestReleaseDate: 2022-11-08
+    latest: "8.2111.2"
+    latestReleaseDate: 2023-07-27
 
 -   releaseCycle: "8.2106"
     releaseDate: 2021-07-15

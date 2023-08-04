@@ -1,6 +1,7 @@
 ---
 title: Yocto Project
 category: os
+tags: linux-distribution
 permalink: /yocto
 alternate_urls:
 -   /yocto-project
@@ -23,8 +24,8 @@ releases:
     codename: 'Mickledore'
     releaseDate: 2023-05-03
     eol: 2023-11-05
-    latest: "4.2.1"
-    latestReleaseDate: 2023-05-28
+    latest: "4.2.2"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "4.1"
     codename: 'Langdale'
@@ -38,8 +39,8 @@ releases:
     releaseDate: 2022-04-25
     lts: true
     eol: 2024-04-27
-    latest: "4.0.10"
-    latestReleaseDate: 2023-05-23
+    latest: "4.0.11"
+    latestReleaseDate: 2023-07-03
 
 
 -   releaseCycle: "3.4"
@@ -68,8 +69,8 @@ releases:
     releaseDate: 2020-04-21
     lts: true
     eol: 2024-04-01
-    latest: "3.1.25"
-    latestReleaseDate: 2023-05-11
+    latest: "3.1.26"
+    latestReleaseDate: 2023-06-28
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'

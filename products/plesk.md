@@ -1,6 +1,7 @@
 ---
 title: Plesk
 category: server-app
+tags: php-runtime
 iconSlug: plesk
 permalink: /plesk
 versionCommand: plesk version
@@ -16,12 +17,17 @@ auto:
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+-   releaseCycle: "18.0.54"
+    releaseDate: 2023-07-18
+    eol: 2023-10-10
+    latest: "18.0.54.2"
+    latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "18.0.53"
     releaseDate: 2023-06-06
     eol: 2023-09-04
-    latest: "18.0.53.1"
-    latestReleaseDate: 2023-06-13
+    latest: "18.0.53.2"
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "18.0.52"
     releaseDate: 2023-04-25

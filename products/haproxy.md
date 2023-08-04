@@ -1,6 +1,7 @@
 ---
 title: HAProxy
 category: server-app
+tags: web-server
 permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
@@ -20,8 +21,8 @@ releases:
     lts: true
     releaseDate: 2023-05-31
     eol: 2028-04-01
-    latest: "2.8.0"
-    latestReleaseDate: 2023-05-31
+    latest: "2.8.1"
+    latestReleaseDate: 2023-07-03
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01

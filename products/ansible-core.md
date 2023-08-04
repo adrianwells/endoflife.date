@@ -2,34 +2,37 @@
 permalink: /ansible-core
 title: Ansible-core
 versionCommand: ansible --version
-releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: 
+  https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: 
+  https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 sortReleasesBy: "releaseDate"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 category: framework
+tags: python-runtime red-hat
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:
 -   releaseCycle: "2.15"
     releaseDate: 2023-05-15
     eol: 2024-11-01
-    latest: "2.15.0"
-    latestReleaseDate: 2023-05-15
+    latest: "2.15.2"
+    latestReleaseDate: 2023-07-17
 
 -   releaseCycle: "2.14"
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.6"
-    latestReleaseDate: 2023-05-22
+    latest: "2.14.8"
+    latestReleaseDate: 2023-07-17
 
 -   releaseCycle: "2.13"
     releaseDate: 2022-05-16
     eol: 2023-11-30
-    latest: "2.13.10"
-    latestReleaseDate: 2023-05-22
+    latest: "2.13.11"
+    latestReleaseDate: 2023-07-17
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-11-08

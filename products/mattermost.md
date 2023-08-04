@@ -5,7 +5,7 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
-releaseImage: https://docs.mattermost.com/_images/esr.png
+releaseImage: https://docs.mattermost.com/_images/ESR_graphic.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 activeSupportColumn: false
@@ -17,24 +17,30 @@ auto:
 
 # EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2023-07-09
+    eol: 2023-10-15
+    latest: '8.0.1'
+    latestReleaseDate: 2023-07-24
+
 -   releaseCycle: "7.10"
     releaseDate: 2023-04-12
     eol: 2023-07-15
-    latest: '7.10.2'
-    latestReleaseDate: 2023-05-18
+    latest: '7.10.5'
+    latestReleaseDate: 2023-07-24
 
 -   releaseCycle: "7.9"
     releaseDate: 2023-03-14
     eol: 2023-06-15
-    latest: '7.9.4'
-    latestReleaseDate: 2023-05-11
+    latest: '7.9.6'
+    latestReleaseDate: 2023-07-05
 
 -   releaseCycle: "7.8"
     lts: true
     releaseDate: 2023-02-14
     eol: 2023-11-15
-    latestReleaseDate: 2023-05-31
-    latest: '7.8.6'
+    latestReleaseDate: 2023-07-24
+    latest: '7.8.9'
 
 -   releaseCycle: "7.7"
     releaseDate: 2023-01-13

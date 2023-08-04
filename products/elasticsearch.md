@@ -1,6 +1,7 @@
 ---
 title: Elasticsearch
 category: db
+tags: elastic java-runtime
 iconSlug: elasticsearch
 permalink: /elasticsearch
 versionCommand: $ES_HOME/bin/elasticsearch -v
@@ -21,16 +22,16 @@ auto:
 releases:
 -   releaseCycle: "8"
     # the longest between this date and 6 months after the 9.0.0
-    eol: 2023-10-26
-    latest: "8.8.1"
-    latestReleaseDate: 2023-06-08
+    eol: 2024-08-10
+    latest: "8.9.0"
+    latestReleaseDate: 2023-07-25
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
     # Maintained until 9.0.0
     eol: 2023-08-01
-    latest: "7.17.10"
-    latestReleaseDate: 2023-05-02
+    latest: "7.17.12"
+    latestReleaseDate: 2023-07-25
     releaseDate: 2019-04-10
 
 -   releaseCycle: "6"

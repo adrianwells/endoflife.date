@@ -1,9 +1,9 @@
 ---
 title: Vuetify
 category: framework
+tags: javascript-runtime
 iconSlug: vuetify
 permalink: /vuetify
-
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/en/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
@@ -15,21 +15,22 @@ auto:
 
 identifiers:
 -   purl: pkg:npm/vuetify
+
 releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.3.3"
+    latest: "3.3.11"
     lts: false
-    latestReleaseDate: 2023-06-07
+    latestReleaseDate: 2023-08-01
     releaseDate: 2022-10-31
 
 -   releaseCycle: "2"
     support: 2021-11-15
     eol: false
-    latest: "2.6.15"
+    latest: "2.7.0"
     lts: false
-    latestReleaseDate: 2023-04-12
+    latestReleaseDate: 2023-07-05
     releaseDate: 2019-07-23
 
 -   releaseCycle: "1.5"

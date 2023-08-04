@@ -1,6 +1,7 @@
 ---
 title: Bellsoft Liberica JDK
 category: lang
+tags: bellsoft java-distribution
 iconSlug: openjdk
 permalink: /bellsoft-liberica
 alternate_urls:
@@ -49,8 +50,8 @@ releases:
     releaseDate: 2023-03-22
     eol: 2023-09-19
     extendedSupport: false
-    latest: "20.0.1+10"
-    latestReleaseDate: 2023-04-19
+    latest: "20.0.2+10"
+    latestReleaseDate: 2023-07-20
 
 -   releaseCycle: "19"
     releaseDate: 2022-09-21
@@ -63,6 +64,7 @@ releases:
     releaseDate: 2022-03-23
     eol: 2022-09-20
     extendedSupport: false
+    link: https://bell-sw.com/pages/liberica-release-notes-18.0.2/
     latest: "18.0.2.1+1"
     latestReleaseDate: 2022-08-25
 
@@ -71,8 +73,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     extendedSupport: 2030-03-31
-    latest: "17.0.7+7"
-    latestReleaseDate: 2023-04-19
+    latest: "17.0.8+7"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
@@ -114,8 +116,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     extendedSupport: 2027-03-31
-    latest: "11.0.19+7"
-    latestReleaseDate: 2023-04-19
+    latest: "11.0.20+8"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -133,8 +135,8 @@ releases:
     releaseDate: 2018-11-01
     eol: 2026-11-30
     extendedSupport: 2031-03-31
-    latest: "8u372+7"
-    latestReleaseDate: 2023-04-19
+    latest: "8u382+6"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "7"
     lts: true

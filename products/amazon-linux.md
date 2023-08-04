@@ -1,6 +1,7 @@
 ---
 title: Amazon Linux
 category: os
+tags: amazon linux-distribution
 iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
@@ -28,16 +29,16 @@ releases:
 -   releaseCycle: '2023'
     eol: 2028-03-15
     support: 2025-03-15
-    latest: "2023.0.20230607.0"
-    latestReleaseDate: 2023-06-12
+    latest: "2023.1.20230719.0"
+    latestReleaseDate: 2023-07-26
     releaseDate: 2023-03-01
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
     eol: 2025-06-30
     support: 2025-06-30
-    latest: "2.0.20230530.0"
-    latestReleaseDate: 2023-06-12
+    latest: "2.0.20230719.0"
+    latestReleaseDate: 2023-07-26
     releaseDate: 2018-06-26
     link: 
       https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
@@ -45,16 +46,16 @@ releases:
 -   releaseCycle: '2018.03'
     releaseLabel: 'AMI 2018.03'
     support: 2020-12-31
-    eol: 2023-06-30
-    latest: "2018.03.0.20230601.0"
+    eol: 2023-12-31
+    latest: "2018.03.0.20230718.0"
     releaseDate: 2018-04-25
     link: https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 
-    latestReleaseDate: 2023-06-12
+    latestReleaseDate: 2023-07-26
 -   releaseCycle: '2017.09'
     releaseLabel: 'AMI 2017.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2017.09.1.20180409"
     releaseDate: 2017-11-03
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2017-09/
@@ -63,17 +64,17 @@ releases:
 -   releaseCycle: '2017.03'
     releaseLabel: 'AMI 2017.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2017.03.1.20170812"
     releaseDate: 2017-04-07
     link: 
-      https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/     # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
+      https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/         # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
 
     latestReleaseDate: 2017-11-03
 -   releaseCycle: '2016.09'
     releaseLabel: 'AMI 2016.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2016.09.1.20161221"
     releaseDate: 2016-11-16
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2016-09/
@@ -82,7 +83,7 @@ releases:
 -   releaseCycle: '2016.03'
     releaseLabel: 'AMI 2016.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2016.03"
     releaseDate: 2016-03-22
     link: https://aws.amazon.com/amazon-linux-ami/2016.03-release-notes/
@@ -90,7 +91,7 @@ releases:
 -   releaseCycle: '2015.09'
     releaseLabel: 'AMI 2015.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2015.09"
     releaseDate: 2015-09-22
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-09/
@@ -98,7 +99,7 @@ releases:
 -   releaseCycle: '2015.03'
     releaseLabel: 'AMI 2015.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2015.03"
     releaseDate: 2015-03-24
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2015-03/
@@ -106,7 +107,7 @@ releases:
 -   releaseCycle: '2014.09'
     releaseLabel: 'AMI 2014.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2014.09"
     releaseDate: 2014-09-23
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2014-09/
@@ -114,7 +115,7 @@ releases:
 -   releaseCycle: '2014.03'
     releaseLabel: 'AMI 2014.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2014.03"
     releaseDate: 2014-03-27
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201403-is-now-available/
@@ -122,7 +123,7 @@ releases:
 -   releaseCycle: '2013.09'
     releaseLabel: 'AMI 2013.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2013.09"
     releaseDate: 2013-09-30
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201309-now-available/
@@ -130,7 +131,7 @@ releases:
 -   releaseCycle: '2013.03'
     releaseLabel: 'AMI 2013.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2013.03"
     releaseDate: 2013-03-27
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201303-now-available/
@@ -138,7 +139,7 @@ releases:
 -   releaseCycle: '2012.09'
     releaseLabel: 'AMI 2012.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2012.09"
     releaseDate: 2012-10-11
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-201209-now-available/
@@ -146,7 +147,7 @@ releases:
 -   releaseCycle: '2012.03'
     releaseLabel: 'AMI 2012.03'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2012.03"
     releaseDate: 2012-03-28
     link: https://aws.amazon.com/blogs/aws/updated-amazon-linux-ami-201203-now-available/
@@ -154,7 +155,7 @@ releases:
 -   releaseCycle: '2011.09'
     releaseLabel: 'AMI 2011.09'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2011.09"
     releaseDate: 2011-09-26
     link: 
@@ -163,7 +164,7 @@ releases:
 -   releaseCycle: '2010.11'
     releaseLabel: 'AMI 2010.11'
     support: 2020-12-31
-    eol: 2023-06-30
+    eol: 2023-12-31
     latest: "2010.11"
     releaseDate: 2010-12-01
     link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-2010111-released/
@@ -192,9 +193,9 @@ AWS announced [Amazon Linux 2023][al2023] [^1] as a successor to
 Amazon Linux 2, which uses Fedora as the upstream. It reached
 GA (General Availability) in March 2023.
 
-Every major version release is supported by Standard Support for 2 years, 
+Every major version release is supported by Standard Support for 2 years,
 followed by a maintenance phase of 3 years. Quarterly minor releases will be made
-during the Standard Support phase and include security updates, 
+during the Standard Support phase and include security updates,
 bug fixes, and new features and packages. Minor releases do not
 break backward-compatibility.
 

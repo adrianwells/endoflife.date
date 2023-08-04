@@ -1,6 +1,7 @@
 ---
 title: Microsoft .NET
 category: framework
+tags: microsoft
 iconSlug: dotnet
 permalink: /dotnet
 alternate_urls:
@@ -9,7 +10,8 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
+changelogTemplate: 
+  https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
 
@@ -20,20 +22,38 @@ auto:
 -   git: https://github.com/dotnet/core.git
     regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 
+identifiers:
+-   purl: pkg:nuget/Microsoft.NETCore.App
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
+
 releases:
 -   releaseCycle: "7.0"
     lts: false
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.5"
-    latestReleaseDate: 2023-04-11
+    latest: "7.0.9"
+    latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "6.0"
     lts: true
     releaseDate: 2021-11-08
     eol: 2024-11-12
-    latest: "6.0.16"
-    latestReleaseDate: 2023-04-11
+    latest: "6.0.20"
+    latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "5.0"
     lts: false

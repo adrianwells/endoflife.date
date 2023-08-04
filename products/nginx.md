@@ -1,6 +1,7 @@
 ---
 title: nginx
 category: server-app
+tags: web-server
 iconSlug: nginx
 permalink: /nginx
 versionCommand: nginx -v
@@ -30,9 +31,9 @@ releases:
     releaseDate: 2023-05-23
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.25.0"
-    latestReleaseDate: 2023-05-23
-  
+    latest: "1.25.1"
+    latestReleaseDate: 2023-06-13
+
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
     eol: false
@@ -64,6 +65,12 @@ releases:
     eol: 2022-05-24
     latest: "1.20.2"
     latestReleaseDate: 2021-11-16
+
+-   releaseCycle: "1.19"
+    releaseDate: 2020-05-26
+    eol: 2021-05-25
+    latest: "1.19.10"
+    latestReleaseDate: 2021-04-13
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-04-21

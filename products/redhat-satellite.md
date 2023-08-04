@@ -1,12 +1,14 @@
 ---
 title: Red Hat Satellite
 category: server-app
+tags: red-hat
 iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:
 -   /rhsat
 versionCommand: yum info satellite
-releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
+releaseImage: 
+  https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
@@ -14,28 +16,31 @@ activeSupportColumn: Full support
 activeSupportWarnThreshold: 30
 eolColumn: Maintenance support
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
     eol: 2024-11-30
     support: 2023-11-30
-    latest: "6.13.0"
-    latestReleaseDate: 2023-05-03
+    latest: "6.13.3"
+    latestReleaseDate: 2023-08-03
 
 -   releaseCycle: "6.12"
     releaseDate: 2022-11-16
     eol: 2024-05-31
     support: 2023-05-31
-    latest: "6.12.4"
-    latestReleaseDate: 2023-04-27
+    latest: "6.12.4.1"
+    latestReleaseDate: 2023-06-15
     link: https://access.redhat.com/errata/RHBA-2023:2052
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
     eol: 2024-01-31
     support: 2022-11-30
-    latest: "6.11.5.2"
-    latestReleaseDate: 2023-03-27
+    latest: "6.11.5.4"
+    latestReleaseDate: 2023-06-15
     link: https://access.redhat.com/errata/RHBA-2023:1478
 
 -   releaseCycle: "6.10"

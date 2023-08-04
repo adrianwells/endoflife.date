@@ -1,6 +1,7 @@
 ---
 title: Wagtail
 category: framework
+tags: python-runtime
 iconSlug: wagtail
 permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
@@ -23,8 +24,8 @@ releases:
     releaseDate: 2023-05-02
     support: 2023-08-01
     eol: 2023-11-01
-    latest: "5.0.1"
-    latestReleaseDate: 2023-05-25
+    latest: "5.0.2"
+    latestReleaseDate: 2023-06-21
 
 -   releaseCycle: "4.2"
     support: 2023-05-02

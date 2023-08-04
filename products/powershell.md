@@ -1,6 +1,7 @@
 ---
 title: Microsoft PowerShell
 category: lang
+tags: microsoft
 iconSlug: powershell
 permalink: /powershell
 alternate_urls:
@@ -18,15 +19,15 @@ releases:
 -   releaseCycle: "7.3"
     lts: false
     eol: false
-    latest: "7.3.4"
-    latestReleaseDate: 2023-04-13
+    latest: "7.3.6"
+    latestReleaseDate: 2023-07-13
     releaseDate: 2022-11-08
 
 -   releaseCycle: "7.2"
     lts: true
     eol: 2024-11-30
-    latest: "7.2.11"
-    latestReleaseDate: 2023-04-13
+    latest: "7.2.13"
+    latestReleaseDate: 2023-07-13
     releaseDate: 2021-11-05
 
 -   releaseCycle: "7.1"

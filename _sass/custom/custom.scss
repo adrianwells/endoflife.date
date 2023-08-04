@@ -23,16 +23,20 @@ a {
   // Icons are 50x50, so this adds another 10 pixels
   min-height: 60px;
 }
+
 .product-logo {
   float: left;
   margin-right: .5em;
 }
+
 .bg-light {
   background-color: #f8f9fa !important;
 }
+
 .txt-linethrough {
   text-decoration: line-through;
 }
+
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -46,6 +50,7 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -53,14 +58,11 @@ a {
   padding: 1.25rem;
 }
 
-body {
-  >svg {
-    &:nth-of-type(1) {
-      display: none;
-    }
-  }
+.align-items-center {
+  align-items: center;
 }
 
+// Inject site logo before the site title
 .site-title {
   margin-left: 2rem;
 
@@ -76,6 +78,6 @@ body {
   }
 }
 
-.align-items-center {
-  align-items: center;
+#version-command {
+  overflow: scroll;
 }

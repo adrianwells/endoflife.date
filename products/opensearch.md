@@ -1,6 +1,7 @@
 ---
 title: OpenSearch
 category: db
+tags: amazon java-runtime
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
@@ -14,13 +15,13 @@ releases:
 -   releaseCycle: "2"
     eol: false
     releaseDate: 2022-05-18
-    latest: "2.8.0"
-    latestReleaseDate: 2023-06-02
+    latest: "2.9.0"
+    latestReleaseDate: 2023-07-18
 -   releaseCycle: "1"
     eol: 2023-12-31
     releaseDate: 2021-07-02
-    latest: "1.3.10"
-    latestReleaseDate: 2023-05-09
+    latest: "1.3.11"
+    latestReleaseDate: 2023-06-22
 
 ---
 
@@ -32,9 +33,6 @@ releases:
 
 Release  | Release Date
 -------- | ------------
- 2.8.0   | {{ "2023-06-06" | date_to_string }}
- 1.3.11  | {{ "2023-06-29" | date_to_string }}
- 2.9.0   | {{ "2023-07-18" | date_to_string }}
  1.3.12  | {{ "2023-08-10" | date_to_string }}
  2.10.0  | {{ "2023-08-29" | date_to_string }}
  1.3.13  | {{ "2023-09-21" | date_to_string }}

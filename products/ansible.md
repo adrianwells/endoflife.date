@@ -1,12 +1,15 @@
 ---
 title: Ansible
 category: app
+tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: 
+  https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: 
+  https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
@@ -22,18 +25,18 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-05-30
     eol: false
-    latest: "8.0.0"
-    latestReleaseDate: 2023-05-30
+    latest: "8.2.0"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
-    eol: false
-    latest: "7.6.0"
-    latestReleaseDate: 2023-05-23
+    eol: 2023-06-22
+    latest: "7.7.0"
+    latestReleaseDate: 2023-06-22
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-21
-    eol: 2022-12-22 # will have to be updated with 6.7.0 release date
+    eol: 2022-12-06
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
 

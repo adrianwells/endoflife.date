@@ -1,10 +1,11 @@
 ---
 title: Apache Camel
+category: framework
+tags: apache java-runtime
 permalink: /apache-camel
 alternate_urls:
 -   /camel
 -   /camel-lang
-category: framework
 releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
 releaseColumn: true
@@ -19,13 +20,21 @@ auto:
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
+-   releaseCycle: "3.21"
+    releaseDate: 2023-06-23
+    eol: 2024-06-23
+    lts: true
+    supportedJavaVersions: 11, 17
+    latest: "3.21.0"
+    latestReleaseDate: 2023-06-23
+
 -   releaseCycle: "3.20"
     releaseDate: 2022-12-16
     eol: 2023-12-31
     lts: true
     supportedJavaVersions: 11, 17
-    latest: "3.20.5"
-    latestReleaseDate: 2023-05-22
+    latest: "3.20.6"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "3.19"
     releaseDate: 2022-09-29
@@ -40,8 +49,8 @@ releases:
     eol: 2023-07-31
     lts: true
     supportedJavaVersions: 11, 17
-    latest: "3.18.7"
-    latestReleaseDate: 2023-05-21
+    latest: "3.18.8"
+    latestReleaseDate: 2023-06-10
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-05-15
@@ -72,8 +81,8 @@ releases:
     eol: 2022-12-31
     lts: true
     supportedJavaVersions: 8, 11
-    latest: "3.14.8"
-    latestReleaseDate: 2023-05-23
+    latest: "3.14.9"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "3.13"
     releaseDate: 2021-11-08

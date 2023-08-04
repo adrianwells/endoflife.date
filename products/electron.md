@@ -1,6 +1,7 @@
 ---
 title: Electron
 category: framework
+tags: javascript-runtime
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version
@@ -26,28 +27,28 @@ releases:
     # 2023-05-30 + 6 months
     eol: 2023-11-30
     releaseDate: 2023-05-29
-    latestReleaseDate: 2023-06-07
-    latest: "25.1.0"
+    latestReleaseDate: 2023-08-02
+    latest: "25.4.0"
 
 -   releaseCycle: "24"
     # 2023-04-05 + 6 months
     eol: 2023-10-05
     releaseDate: 2023-04-04
-    latestReleaseDate: 2023-06-08
-    latest: "24.5.0"
+    latestReleaseDate: 2023-08-02
+    latest: "24.7.0"
 
 -   releaseCycle: "23"
     # 2023-02-06 + 6 months
     eol: 2023-08-06
     releaseDate: 2023-02-07
-    latestReleaseDate: 2023-06-08
-    latest: "23.3.6"
+    latestReleaseDate: 2023-08-02
+    latest: "23.3.12"
 
 -   releaseCycle: "22"
-    eol: 2023-05-29
+    eol: 2023-10-10
     releaseDate: 2022-11-30
-    latestReleaseDate: 2023-05-31
-    latest: "22.3.12"
+    latestReleaseDate: 2023-07-19
+    latest: "22.3.18"
 
 -   releaseCycle: "21"
     eol: 2023-04-04
@@ -158,9 +159,15 @@ releases:
 > to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS,
 > and Linux.
 
-The latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
+Typically, the latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
 Only the latest minor release in each major version is supported. A new major stable version is
 released every 8 weeks.
+
+ℹ️ Electron 22 is temporarily supported until October 10, 2023. This extended
+support is intended to help developers who still need support for Windows 7/8/8.1, which
+ended support in Electron 23. The October support date follows the extended support dates from
+both Chromium and Microsoft. On October 11, support will drop back to the
+latest three stable major versions.
 
 All supported release get fixes backported that were previously merged to main, though this may be
 on a case-by-case basis for some older supported releases. When an API is changed or removed in a

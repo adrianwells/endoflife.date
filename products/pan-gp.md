@@ -1,6 +1,7 @@
 ---
 title: Palo Alto Networks GlobalProtect App
 category: app
+tags: palo-alto-networks
 permalink: /pangp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 
@@ -30,8 +31,8 @@ releases:
     eol: 2024-02-22
     support: 2024-02-22
     releaseDate: 2022-02-22
-    latest: "6.0.5"
-    latestReleaseDate: 2023-01-24
+    latest: "6.0.7"
+    latestReleaseDate: 2023-06-21
     link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes
 
 -   releaseCycle: "5.3"
@@ -40,15 +41,15 @@ releases:
     releaseDate: 2021-06-01
     latest: "5.3.4"
     latestReleaseDate: 2022-05-31
-    link: https://docs.paloaltonetworks.com/globalprotect/5-3/globalprotect-app-release-notes/gp-app-release-information
+    link: https://web.archive.org/web/20221203201532/https://docs.paloaltonetworks.com/globalprotect/5-3/globalprotect-app-release-notes/gp-app-release-information
 
 -   releaseCycle: "5.2"
     eol: 2024-02-28
     support: 2023-08-31
     releaseDate: 2020-07-30
-    latest: "5.2.13"
-    latestReleaseDate: 2023-02-22
-    link: https://docs.paloaltonetworks.com/globalprotect/5-2/globalprotect-app-release-notes
+    latest: "5.2.13-c418"
+    latestReleaseDate: 2023-07-11
+    link: https://docs.paloaltonetworks.com/globalprotect/5-2/globalprotect-app-release-notes/globalprotect-known-and-addressed-issues/globalprotect-addressed-issues
 
 -   releaseCycle: "5.1"
     eol: 2023-06-30
@@ -63,14 +64,14 @@ releases:
     support: 2020-05-12
     releaseDate: 2019-02-12
     latest: "5.0.10"
-    link: https://docs.paloaltonetworks.com/globalprotect/5-0/globalprotect-app-release-notes/gp-app-release-information/globalprotect-50-addressed-issues
+    link: https://web.archive.org/web/20220815074700/https://docs.paloaltonetworks.com/globalprotect/5-0/globalprotect-app-release-notes/gp-app-release-information/globalprotect-50-addressed-issues
 
 -   releaseCycle: "4.1"
     eol: 2020-03-01
     support: 2019-06-01
     releaseDate: 2018-03-01
     latest: "4.1.13"
-    link: https://docs.paloaltonetworks.com/globalprotect/4-1/globalprotect-app-release-notes/gp-app-release-information/globalprotect-app-4113-addressed-issues
+    link: https://web.archive.org/web/20220813143321/https://docs.paloaltonetworks.com/globalprotect/4-1/globalprotect-app-release-notes/gp-app-release-information/globalprotect-app-4113-addressed-issues
 
 -   releaseCycle: "4.0"
     eol: 2019-01-30

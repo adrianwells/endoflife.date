@@ -1,6 +1,7 @@
 ---
 title: RabbitMQ
 category: server-app
+tags: erlang-runtime
 iconSlug: rabbitmq
 permalink: /rabbitmq
 versionCommand: rabbitmqctl --version
@@ -12,29 +13,30 @@ extendedSupportColumn: Extended Commercial Support
 
 auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
-    regex: ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
+    regex: 
+      ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
 
 releases:
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01
-    eol: false
-    extendedSupport: true
-    latest: "3.12.0"
-    latestReleaseDate: 2023-06-01
+    eol: 2024-06-30
+    extendedSupport: 2024-12-31
+    latest: "3.12.2"
+    latestReleaseDate: 2023-07-17
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-09-26
     eol: 2023-12-31
     extendedSupport: 2024-07-31
-    latest: "3.11.18"
-    latestReleaseDate: 2023-06-05
+    latest: "3.11.20"
+    latestReleaseDate: 2023-07-17
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-05-03
     eol: 2023-07-31
     extendedSupport: 2023-12-31
-    latest: "3.10.24"
-    latestReleaseDate: 2023-06-05
+    latest: "3.10.25"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "3.9"
     releaseDate: 2021-07-23

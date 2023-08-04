@@ -1,6 +1,7 @@
 ---
 title: Nexus Repository OSS
 category: server-app
+tags: java-runtime
 # https://github.com/simple-icons/simple-icons/issues/7924
 permalink: /nexus
 alternate_urls:
@@ -20,8 +21,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.55.0"
-    latestReleaseDate: 2023-06-06
+    latest: "3.58.1"
+    latestReleaseDate: 2023-07-27
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"
@@ -34,11 +35,11 @@ releases:
 
 ---
 
-> [Nexus Repository OSS](https://www.sonatype.com/products/repository-oss-download) is an open
+> [Nexus Repository OSS](https://help.sonatype.com/repomanager3/product-information/download) is an open
 > source repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
 
 Only the latest version of each major release is supported.
 
 Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
-additional features with [Nexus Repository Pro](https://www.sonatype.com/products/repository-oss-vs-pro-features).
+additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).

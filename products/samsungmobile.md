@@ -1,6 +1,7 @@
 ---
 title: Samsung Mobile
 category: device
+tags: mobile-phone smartwatch tablet
 iconSlug: samsung
 permalink: /samsung-mobile
 alternate_urls:
@@ -1077,7 +1078,7 @@ releases:
 -   releaseCycle: "Galaxy A50"
     releaseDate: 2019-03-18
     support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-A505G/CHL/doc.html
 
 -   releaseCycle: "Galaxy A30"
@@ -1100,20 +1101,20 @@ releases:
 
 -   releaseCycle: "Galaxy S10"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-G973F/XEF/doc.html
 
 -   releaseCycle: "Galaxy S10+"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-G975F/XEF/doc.html
 
 -   releaseCycle: "Galaxy S10e"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/sm-g970f/dbt/doc.html
 
 -   releaseCycle: "Galaxy M20"
@@ -2513,7 +2514,7 @@ releases:
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed,
 > manufactured and marketed by Samsung Electronics.
 
-# Security brackets
+## Security brackets
 
 Samsung devices usually have four support brackets in which a device receives support. Which bracket
 your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
@@ -2529,5 +2530,6 @@ your device falls under [can be found here](https://security.samsungmobile.com/w
   bracket takes over once quarterly updates have ended, it usually lasts an additional year, or
   until four years have passed since the device has been released.
 
-**Note**: Some dates are based on when support status was changed on the Samsung website - they
+**Note** 1: Some dates are based on when support status was changed on the Samsung website - they
 might be approximate.
+**Note** 2: Some release dates may vary depending on the country or region.

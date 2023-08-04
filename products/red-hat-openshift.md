@@ -1,6 +1,7 @@
 ---
 title: Red Hat OpenShift
 category: server-app
+tags: red-hat
 iconSlug: redhatopenshift
 permalink: /red-hat-openshift
 alternate_urls:
@@ -8,12 +9,18 @@ alternate_urls:
 -   /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
-changelogTemplate: https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes.html
+releaseImage: 
+  https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
+changelogTemplate: 
+  https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"|
+  replace:'.','-'}}-release-notes.html
 releaseDateColumn: true
 activeSupportColumn: Full Support
 eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
+
+auto:
+-   custom: true
 
 releases:
 -   releaseCycle: "4.13"
@@ -21,32 +28,32 @@ releases:
     support: true # will have to be updated with release of 4.14 see https://access.redhat.com/support/policy/updates/openshift#dates
     eol: 2024-11-17
     extendedSupport: 2025-01-17
-    latest: "4.13.2"
-    latestReleaseDate: 2023-06-07
+    latest: "4.13.6"
+    latestReleaseDate: 2023-07-27
 
 -   releaseCycle: "4.12"
-    releaseDate: 2023-01-17
+    releaseDate: 2022-01-30
     support: 2023-08-17
     eol: 2024-07-17
     extendedSupport: 2025-01-17
-    latest: "4.12.19"
-    latestReleaseDate: 2023-05-31
+    latest: "4.12.26"
+    latestReleaseDate: 2023-07-26
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.42"
-    latestReleaseDate: 2023-05-31
+    latest: "4.11.45"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10
     support: 2022-11-10
     eol: 2023-09-10
     extendedSupport: false
-    latest: "4.10.60"
-    latestReleaseDate: 2023-05-24
+    latest: "4.10.64"
+    latestReleaseDate: 2023-07-26
 
 -   releaseCycle: "4.9"
     releaseDate: 2021-10-18
@@ -73,7 +80,7 @@ releases:
     latestReleaseDate: 2022-11-10
 
 -   releaseCycle: "4.6"
-    releaseDate: 2020-10-27
+    releaseDate: 2020-11-09
     support: 2021-03-24
     eol: 2022-10-27
     extendedSupport: false
@@ -81,7 +88,7 @@ releases:
     latestReleaseDate: 2022-11-10
 
 -   releaseCycle: "4.5"
-    releaseDate: 2020-07-13
+    releaseDate: 2020-07-16
     support: 2020-11-27
     eol: 2021-07-27
     extendedSupport: false
@@ -89,7 +96,7 @@ releases:
     latestReleaseDate: 2021-06-30
 
 -   releaseCycle: "4.4"
-    releaseDate: 2020-05-05
+    releaseDate: 2020-05-18
     support: 2020-08-13
     eol: 2021-02-24
     extendedSupport: false
@@ -97,7 +104,7 @@ releases:
     latestReleaseDate: 2021-02-02
 
 -   releaseCycle: "4.3"
-    releaseDate: 2020-01-23
+    releaseDate: 2020-02-12
     support: 2020-06-05
     eol: 2020-10-27
     extendedSupport: false
@@ -105,7 +112,7 @@ releases:
     latestReleaseDate: 2020-10-20
 
 -   releaseCycle: "4.2"
-    releaseDate: 2019-10-16
+    releaseDate: 2019-10-29
     support: 2020-02-23
     eol: 2020-07-13
     extendedSupport: false
@@ -113,7 +120,7 @@ releases:
     latestReleaseDate: 2020-07-01
 
 -   releaseCycle: "4.1"
-    releaseDate: 2019-06-04
+    releaseDate: 2019-06-18
     support: 2019-11-16
     eol: 2020-05-05
     extendedSupport: false

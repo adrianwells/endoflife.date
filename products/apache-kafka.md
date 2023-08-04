@@ -1,6 +1,7 @@
 ---
 title: Apache Kafka
 category: server-app
+tags: apache java-runtime
 iconSlug: apachekafka
 permalink: /apache-kafka
 alternate_urls:
@@ -19,9 +20,16 @@ auto:
 # Extended support date can be found in the "Standard End of Support" column on
 # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
 releases:
+-   releaseCycle: "3.5"
+    releaseDate: 2023-06-13
+    eol: false
+    extendedSupport: false # not yet announced at # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
+    latest: "3.5.1"
+    latestReleaseDate: 2023-07-20
+
 -   releaseCycle: "3.4"
     releaseDate: 2023-02-06
-    eol: false
+    eol: 2023-06-13
     extendedSupport: 2025-05-03
     latest: "3.4.1"
     latestReleaseDate: 2023-05-26
@@ -30,6 +38,7 @@ releases:
     releaseDate: 2022-09-28
     eol: 2023-02-06
     extendedSupport: 2024-11-04
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.3.2"
     latestReleaseDate: 2023-01-11
 
@@ -37,6 +46,7 @@ releases:
     releaseDate: 2022-05-09
     eol: 2022-09-28
     extendedSupport: 2024-07-06
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.2.3"
     latestReleaseDate: 2022-09-17
 
@@ -44,6 +54,7 @@ releases:
     releaseDate: 2022-01-21
     eol: 2022-09-19
     extendedSupport: 2024-04-05
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.1.2"
     latestReleaseDate: 2022-09-09
 
@@ -51,6 +62,7 @@ releases:
     releaseDate: 2021-09-20
     eol: 2022-09-19
     extendedSupport: 2023-10-27
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.0.2"
     latestReleaseDate: 2022-09-12
 
@@ -178,7 +190,8 @@ releases:
     releaseDate: 2012-01-04
     eol: 2013-12-03
     extendedSupport: false
-    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
+    link: 
+      https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
 
